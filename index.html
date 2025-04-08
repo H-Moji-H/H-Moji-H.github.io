@@ -3,22 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    
-    <!-- Google tag (gtag.js) -->
+    <title>H-Moji-H's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        .github-link {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .github-link:hover {
+            background-color: #555;
+        }
+    </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BNKEKYRXGB"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-BNKEKYRXGB');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-BNKEKYRXGB');
     </script>
-    <!-- End Google tag -->
-</head>
+    </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Check out my projects and repositories.</p>
+    <h1>Welcome to H-Moji-H's Portfolio</h1>
+    <p>Explore my projects and repositories on GitHub.</p>
+    <a href="https://github.com/H-Moji-H" class="github-link" target="_blank">View My GitHub</a>
 </body>
 </html>
 
